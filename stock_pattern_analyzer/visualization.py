@@ -4,9 +4,9 @@ import numpy as np
 from plotly import graph_objs
 from sklearn.preprocessing import minmax_scale
 
-FIG_BG_COLOR = "#F9F9F9"
-ANCHOR_COLOR = "#FF372D"
-VALUES_COLOR = "#89D4F5"
+FIG_BG_COLOR = "#DBE5EA"
+ANCHOR_COLOR = "#B34B4B"
+VALUES_COLOR = "#689BBA"
 
 
 def visualize_graph(match_values_list: List[np.ndarray],
